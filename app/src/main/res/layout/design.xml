@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="15dp"
+    app:cardElevation="5dp"
+    app:cardBackgroundColor="@color/white"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="center"
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/img1"/>
+
+        <TextView
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img1"
+            android:text="This is Course Name"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/link"
+            android:text="Visit source"
+            android:textSize="1sp"
+            android:textColor="#000"
+            android:layout_below="@id/header"
+            android:visibility="invisible"/>
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

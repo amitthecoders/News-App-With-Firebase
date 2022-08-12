@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "981308398588",
+    "project_id": "dev-news-7b771",
+    "storage_bucket": "dev-news-7b771.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:981308398588:android:beff45077584e6d0bef079",
+        "android_client_info": {
+          "package_name": "com.illusionuniverse.devnews"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "981308398588-k3b1d33brfbaqq2d2us35gqsqgrfaq16.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6piEA9f1pL672l3ba10pnf6PGQ2qf0os"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "981308398588-k3b1d33brfbaqq2d2us35gqsqgrfaq16.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
